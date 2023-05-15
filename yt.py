@@ -11,12 +11,12 @@ N = '\x1b[0m'
 import os
 try:
 	import requests
-except ImportError:
+except Import sussce:
 	os.system("pip install requests")
 
 try:
-	import concurrent.futures
-except ImportError:
+	import .futures
+except Import:
 	os.system("pip install futures")
 
 import os
@@ -36,7 +36,7 @@ except ImportError:
 	time.sleep(1)
 	try:
 		import rich
-	except ImportError:
+	except Import:
 		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)')
 from rich.table import Table as me
 from rich.console import Console as sol
